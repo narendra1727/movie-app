@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.Movies-List{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Movie-card{
+  width: 340px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Poster{
+  height: 500px;
+  object-fit: cover;
+  width: 340px;
+  margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rating{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+b{
+  font-size: 20px;
+}
+
+.Input1{
+  height: 40px;
+  width:400px;
+}
+
+input{
+  font-size: 25px;
+  width: 400px;
+
+}
+
+.Button-desc{
+  width: 150px;
+}
+
+.input-boxes,.Update-input-boxes{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  /* width: 50vw; */
 }
 
-.App-link {
-  color: #61dafb;
+.Add-Button{
+  width: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Description{
+  margin: 0px;
+  width: 300px;
 }
+
+.counter-icons{
+  margin-top: 15px;
+}
+
+.Movie-rating,  .Movie-name{
+  margin: 2px;
+}
+
+.Details1{
+  margin-left: 30px;
+}
+
+.back-button{
+  margin-top: 50px;
+}
+
+.pagenotfound{
+  padding-left: 50px;
+  width: 100%;
+  height: 500px;
+}
+
+.counter-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.router-container{
+  margin:16px;
+}
+
